@@ -1,0 +1,22 @@
+{
+  "name": "myfinancereportproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "urls": {
+    "currentRates": "https://api.privatbank.ua/p24api/pubinfo?json&exchange&coursid=5",
+    "historicalRates": "https://api.privatbank.ua/p24api/exchange_rates?json"
+  },
+  "dependencies": {
+    "axios": "^1.6.8"
+  }
+}
